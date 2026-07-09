@@ -1,0 +1,2079 @@
+{
+  "job_id":"0659b38b-d082-431d-a469-8e8784695848",
+  "success":true,
+  "data":{
+    "count":90,
+    "window":[
+      {
+        "brand":"PRESTIGE",
+        "category":"AWNING",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-P252 LMI AWNING",
+        "configuration":"AWNING",
+        "ext_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "int_psf_range":{
+          "min":75.0,
+          "max":75.0
+        },
+        "width_range":{
+          "min":23.0,
+          "max":61.8125
+        },
+        "height_range":{
+          "min":29.125,
+          "max":51.5
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"CASEMENT",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-P252 LMI - CASEMENT",
+        "configuration":"CASEMENT",
+        "ext_psf_range":{
+          "min":95.0,
+          "max":95.0
+        },
+        "int_psf_range":{
+          "min":105.0,
+          "max":105.0
+        },
+        "width_range":{
+          "min":17.0,
+          "max":48.0
+        },
+        "height_range":{
+          "min":32.8125,
+          "max":84.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"CASEMENT",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"ES-P252 SMI - CASEMENT",
+        "configuration":"CASEMENT",
+        "ext_psf_range":{
+          "min":95.0,
+          "max":95.0
+        },
+        "int_psf_range":{
+          "min":105.0,
+          "max":105.0
+        },
+        "width_range":{
+          "min":17.0,
+          "max":48.0
+        },
+        "height_range":{
+          "min":33.8125,
+          "max":84.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-P300",
+        "configuration":"FIXED 2L LMI",
+        "ext_psf_range":{
+          "min":39.0,
+          "max":90.0
+        },
+        "int_psf_range":{
+          "min":39.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":60.0
+        },
+        "height_range":{
+          "min":27.25,
+          "max":96.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-P300",
+        "configuration":"AWNING LMI",
+        "ext_psf_range":{
+          "min": 80.0,
+          "max": 80.0
+        },
+        "int_psf_range":{
+          "min": 90.0,
+          "max": 90.0
+        },
+        "width_range":{
+          "min": 15.0,
+          "max": 48.0
+        },
+        "height_range":{
+          "min": 15.0,
+          "max": 84.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-P300",
+        "configuration":"CASEMENT LMI",
+        "ext_psf_range":{
+          "min": 80.0,
+          "max": 80.0
+        },
+        "int_psf_range":{
+          "min": 90.0,
+          "max": 90.0
+        },
+        "width_range":{
+          "min": 15.0,
+          "max": 48.0
+        },
+        "height_range":{
+          "min": 15.0,
+          "max": 84.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-P300",
+        "configuration":"FIXED LMI",
+        "ext_psf_range":{
+          "min": 32.5,
+          "max": 150.0
+        },
+        "int_psf_range":{
+          "min": 32.5,
+          "max": 150.0
+        },
+        "width_range":{
+          "min": 15.0,
+          "max": 144.0
+        },
+        "height_range":{
+          "min": 15.0,
+          "max": 144.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-PA220 - PROJECT OUT WINDOW",
+        "configuration":"AWNING ESW",
+        "ext_psf_range":{
+          "min":100.0,
+          "max":140.0
+        },
+        "int_psf_range":{
+          "min":140.0,
+          "max":140.0
+        },
+        "width_range":{
+          "min":25.0,
+          "max":56.0
+        },
+        "height_range":{
+          "min":42.635,
+          "max":47.875
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"WINDOW",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"ES-P300",
+        "configuration":"AWNING SMI",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":18.0,
+          "max":57.0
+        },
+        "height_range":{
+          "min":24.0,
+          "max":48.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"WINDOW",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"ES-P300",
+        "configuration":"CASEMENT SMI",
+        "ext_psf_range":{
+          "min": 80.0,
+          "max": 80.0
+        },
+        "int_psf_range":{
+          "min": 90.0,
+          "max": 90.0
+        },
+        "width_range":{
+          "min": 15.0,
+          "max": 48.0
+        },
+        "height_range":{
+          "min": 15.0,
+          "max": 48.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"ES-SW340 SMI",
+        "configuration":"XO",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":110.0,
+          "max":110.0
+        },
+        "width_range":{
+          "min":32.0,
+          "max":92.6875
+        },
+        "height_range":{
+          "min":24.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"ES-SW340 SMI",
+        "configuration":"XOX",
+        "ext_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "int_psf_range":{
+          "min":110.0,
+          "max":110.0
+        },
+        "width_range":{
+          "min":48.0,
+          "max":126.0
+        },
+        "height_range":{
+          "min":24.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"ES-SW340 SMI",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":110.0,
+          "max":110.0
+        },
+        "width_range":{
+          "min":32.0,
+          "max":92.6875
+        },
+        "height_range":{
+          "min":24.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"ES-SW340 SMI",
+        "configuration":"XOX (0.25 - 0.5 - 0.25)",
+        "ext_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "int_psf_range":{
+          "min":110.0,
+          "max":110.0
+        },
+        "width_range":{
+          "min":48.0,
+          "max":126.0
+        },
+        "height_range":{
+          "min":24.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-H340 LMI",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "int_psf_range":{
+          "min":160.0,
+          "max":160.0
+        },
+        "width_range":{
+          "min":18.1875,
+          "max":54.0
+        },
+        "height_range":{
+          "min":25.0,
+          "max":96.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-H340 LMI",
+        "configuration":"OX NAIL FIN",
+        "ext_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "int_psf_range":{
+          "min":160.0,
+          "max":160.0
+        },
+        "width_range":{
+          "min":18.1875,
+          "max":54.0
+        },
+        "height_range":{
+          "min":25.0,
+          "max":96.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"SINGLE HUNG",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"ES-H340 SMI",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":18.1875,
+          "max":54.0
+        },
+        "height_range":{
+          "min":25.0,
+          "max":81.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"FIXED WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-P252 LMI - FIXED WINDOW",
+        "configuration":"FIXED",
+        "ext_psf_range":{
+          "min":110.0,
+          "max":110.0
+        },
+        "int_psf_range":{
+          "min":150.0,
+          "max":150.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":144.0
+        },
+        "height_range":{
+          "min":15.0,
+          "max":144.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"FIXED WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-WW5037 -JUMBO",
+        "configuration":"1 LITE",
+        "ext_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "int_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "width_range":{
+          "min":49.0,
+          "max":84.0
+        },
+        "height_range":{
+          "min":49.0,
+          "max":180.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"FIXED WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-WW5037T JUMBO - FIXED WINDOW",
+        "configuration":"1 LITE",
+        "ext_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "int_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "width_range":{
+          "min":66.0,
+          "max":84.0
+        },
+        "height_range":{
+          "min":144.0,
+          "max":180.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"DOUBLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-DH400 - DOUBLE HUNG",
+        "configuration":"XX",
+        "ext_psf_range":{
+          "min":0.0,
+          "max":0.0
+        },
+        "int_psf_range":{
+          "min":0.0,
+          "max":0.0
+        },
+        "width_range":{
+          "min":20.0,
+          "max":60.0
+        },
+        "height_range":{
+          "min":28.0,
+          "max":99.0
+        }
+      },
+      {
+        "brand":"ELITE",
+        "category":"AWNING",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-5500",
+        "configuration":"AWNING - MULTIPOINT",
+        "ext_psf_range":{
+          "min":85.0,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":125.0,
+          "max":125.0
+        },
+        "width_range":{
+          "min":16.5625,
+          "max":48.0
+        },
+        "height_range":{
+          "min":17.0,
+          "max":48.0
+        }
+      },
+      {
+        "brand":"ELITE",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-EL200",
+        "configuration":"XO",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":100.0,
+          "max":100.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":84.0
+        },
+        "height_range":{
+          "min":15.0,
+          "max":74.0
+        }
+      },
+      {
+        "brand":"ELITE",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-EL200",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":100.0,
+          "max":100.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":84.0
+        },
+        "height_range":{
+          "min":15.0,
+          "max":74.0
+        }
+      },
+      {
+        "brand":"ELITE",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-EL200",
+        "configuration":"XOX",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":100.0,
+          "max":100.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":120.0
+        },
+        "height_range":{
+          "min":15.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"ELITE",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-EL200",
+        "configuration":"XOX (0.25 - 0.5 - 0.25)",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":120.0
+        },
+        "height_range":{
+          "min":15.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"ELITE",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-EL100",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":53.125
+        },
+        "height_range":{
+          "min":15.0,
+          "max":76.0
+        }
+      },
+      {
+        "brand":"ELITE",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-EL100",
+        "configuration":"OX - SH25 (2ND FLOOR EGRESS)",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "width_range":{
+          "min":14.5625,
+          "max":53.125
+        },
+        "height_range":{
+          "min":19.75,
+          "max":76.0
+        }
+      },
+      {
+        "brand":"ELITE",
+        "category":"FIXED WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-EL150",
+        "configuration":"O",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":150.0,
+          "max":150.0
+        },
+        "width_range":{
+          "min":9.125,
+          "max":144.0
+        },
+        "height_range":{
+          "min":9.125,
+          "max":144.0
+        }
+      },
+      {
+        "brand":"ELITE",
+        "category":"FIXED CASEMENT",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-5100",
+        "configuration":"O",
+        "ext_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":15.5625,
+          "max":76.0
+        },
+        "height_range":{
+          "min":19.1875,
+          "max":76.0
+        }
+      },
+      {
+        "brand":"MULTIMAX",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-MX2000",
+        "configuration":"XO",
+        "ext_psf_range":{
+          "min":67.5,
+          "max":67.5
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":20.0,
+          "max":74.0
+        },
+        "height_range":{
+          "min":20.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"MULTIMAX",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-MX2000",
+        "configuration":"XOX",
+        "ext_psf_range":{
+          "min":66.7,
+          "max":66.7
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":30.0,
+          "max":111.0
+        },
+        "height_range":{
+          "min":20.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"MULTIMAX",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-MX2000",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":67.5,
+          "max":67.5
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":20.0,
+          "max":74.0
+        },
+        "height_range":{
+          "min":20.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"MULTIMAX",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-MX1000",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":70.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":53.125
+        },
+        "height_range":{
+          "min":19.0,
+          "max":80.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"AWNING",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-5600",
+        "configuration":"AWNING - MULTIPOINT",
+        "ext_psf_range":{
+          "min":0.0,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":110.0,
+          "max":125.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":72.0
+        },
+        "height_range":{
+          "min":15.0,
+          "max":48.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"AWNING",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"GW-2650 LMI",
+        "configuration":"AWNING",
+        "ext_psf_range":{
+          "min":100.0,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":132.0,
+          "max":132.0
+        },
+        "width_range":{
+          "min":32.5,
+          "max":56.0
+        },
+        "height_range":{
+          "min":48.625,
+          "max":72.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"CASEMENT",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"HC-200 LMI",
+        "configuration":"CASEMENT",
+        "ext_psf_range":{
+          "min":100.0,
+          "max":150.0
+        },
+        "int_psf_range":{
+          "min":100.0,
+          "max":210.0
+        },
+        "width_range":{
+          "min":17.25,
+          "max":42.0
+        },
+        "height_range":{
+          "min":24.0,
+          "max":48.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-2000",
+        "configuration":"XOX",
+        "ext_psf_range":{
+          "min":66.7,
+          "max":66.7
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":20.0,
+          "max":111.0
+        },
+        "height_range":{
+          "min":20.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-2000",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":20.0,
+          "max":74.0
+        },
+        "height_range":{
+          "min":20.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-2000",
+        "configuration":"XO",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":20.0,
+          "max":74.0
+        },
+        "height_range":{
+          "min":20.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-2050",
+        "configuration":"XOX",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":40.0,
+          "max":111.0
+        },
+        "height_range":{
+          "min":21.75,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-2050",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":20.0,
+          "max":74.0
+        },
+        "height_range":{
+          "min":20.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-2050",
+        "configuration":"XO",
+        "ext_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":20.0,
+          "max":74.0
+        },
+        "height_range":{
+          "min":20.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"HR-2600 - LMI",
+        "configuration":"XOX",
+        "ext_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "int_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":161.625
+        },
+        "height_range":{
+          "min":15.0,
+          "max":80.75
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"HR-2600 - LMI",
+        "configuration":"XOX (0.25 - 0.5 - 0.25)",
+        "ext_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "int_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":161.625
+        },
+        "height_range":{
+          "min":15.0,
+          "max":80.75
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"HR-2600 - LMI",
+        "configuration":"XO",
+        "ext_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "int_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "width_range":{
+          "min": 15.0,
+          "max": 112
+        },
+        "height_range":{
+          "min": 15.0,
+          "max": 80.75
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"HR-2600 - LMI",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "int_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":112.0
+        },
+        "height_range":{
+          "min":15.0,
+          "max":80.75
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"ES-2100",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":82.0,
+          "max":82.0
+        },
+        "int_psf_range":{
+          "min":108.0,
+          "max":108.0
+        },
+        "width_range":{
+          "min":21.75,
+          "max":74.0
+        },
+        "height_range":{
+          "min":21.75,
+          "max":66.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"ES-2100",
+        "configuration":"XOX",
+        "ext_psf_range":{
+          "min":82.0,
+          "max":82.0
+        },
+        "int_psf_range":{
+          "min":82.0,
+          "max":82.0
+        },
+        "width_range":{
+          "min":21.75,
+          "max":111.0
+        },
+        "height_range":{
+          "min":21.75,
+          "max":66.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"ES-2100",
+        "configuration":"XO",
+        "ext_psf_range":{
+          "min":82.0,
+          "max":82.0
+        },
+        "int_psf_range":{
+          "min":108.0,
+          "max":108.0
+        },
+        "width_range":{
+          "min":21.75,
+          "max":74.0
+        },
+        "height_range":{
+          "min":21.75,
+          "max":66.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"HR-2600 SMI",
+        "configuration":"XO",
+        "ext_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "int_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":112.0
+        },
+        "height_range":{
+          "min":15.0,
+          "max":80.75
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"HR-2600 SMI",
+        "configuration":"XOX",
+        "ext_psf_range":{
+          "min":120,
+          "max":120
+        },
+        "int_psf_range":{
+          "min": 120,
+          "max": 120
+        },
+        "width_range":{
+          "min": 15.0,
+          "max": 161.625
+        },
+        "height_range":{
+          "min": 15.0,
+          "max": 80.75
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"HR-2600 SMI",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "int_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":112.0
+        },
+        "height_range":{
+          "min":15.0,
+          "max":80.75
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"HR-2600 SMI",
+        "configuration":"XOX (0.25 - 0.5 - 0.25)",
+        "ext_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "int_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":161.625
+        },
+        "height_range":{
+          "min":15.0,
+          "max":80.75
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"500Y LMI",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":25.9,
+          "max":106.7
+        },
+        "int_psf_range":{
+          "min":140.0,
+          "max":140.0
+        },
+        "width_range":{
+          "min":24.0,
+          "max":72.0
+        },
+        "height_range":{
+          "min":30.0,
+          "max":96.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"500Y LMI",
+        "configuration":"OXO",
+        "ext_psf_range":{
+          "min": 91.5,
+          "max": 100.0
+        },
+        "int_psf_range":{
+          "min": 119.0,
+          "max": 130.0
+        },
+        "width_range":{
+          "min": 28.0,
+          "max": 48.0
+        },
+        "height_range":{
+          "min": 31.0,
+          "max": 110.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"600Y LMI",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":31.2,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "width_range":{
+          "min":16.5625,
+          "max":60.0
+        },
+        "height_range":{
+          "min":22.75,
+          "max":86.75
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"600Y LMI",
+        "configuration":"OXO",
+        "ext_psf_range":{
+          "min":41.7,
+          "max":99.0
+        },
+        "int_psf_range":{
+          "min":119.4,
+          "max":119.4
+        },
+        "width_range":{
+          "min":16.5625,
+          "max":54.0
+        },
+        "height_range":{
+          "min":31.75,
+          "max":118.75
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-1000",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":70.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":19.0,
+          "max":53.125
+        },
+        "height_range":{
+          "min":19.0,
+          "max":80.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-1000WW",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":107.1,
+          "max":115.0
+        },
+        "width_range":{
+          "min":14.5625,
+          "max":48.0
+        },
+        "height_range":{
+          "min":19.0,
+          "max":72.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-1000WW",
+        "configuration":"OXO",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":115.0
+        },
+        "width_range":{
+          "min":14.5625,
+          "max":48.0
+        },
+        "height_range":{
+          "min":28.75,
+          "max":108.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-1050",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":25.9,
+          "max":106.7
+        },
+        "int_psf_range":{
+          "min":140.0,
+          "max":140.0
+        },
+        "width_range":{
+          "min":24.0,
+          "max":72.0
+        },
+        "height_range":{
+          "min":30.0,
+          "max":96.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-1050WW",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":90.0,
+          "max":115.0
+        },
+        "int_psf_range":{
+          "min":100.0,
+          "max":100.0
+        },
+        "width_range":{
+          "min":14.5625,
+          "max":48.0
+        },
+        "height_range":{
+          "min":19.0,
+          "max":73.1875
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-1050WW",
+        "configuration":"OXO",
+        "ext_psf_range":{
+          "min":90.0,
+          "max":115.0
+        },
+        "int_psf_range":{
+          "min": 80.0,
+          "max": 100.0
+        },
+        "width_range":{
+          "min": 14.5625,
+          "max": 48.0
+        },
+        "height_range":{
+          "min": 28.75,
+          "max": 108.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-1150WW",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":100.0,
+          "max":150.0
+        },
+        "int_psf_range":{
+          "min":150.0,
+          "max":150.0
+        },
+        "width_range":{
+          "min":19.0,
+          "max":50.0
+        },
+        "height_range":{
+          "min":108.0625,
+          "max":110.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-1150WW",
+        "configuration":"OXO",
+        "ext_psf_range":{
+          "min":100.0,
+          "max":150.0
+        },
+        "int_psf_range":{
+          "min":114.8,
+          "max":150.0
+        },
+        "width_range":{
+          "min":19.0,
+          "max":50.0
+        },
+        "height_range":{
+          "min":108.0625,
+          "max":110.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"PH-4400 LMI",
+        "configuration":"XO",
+        "ext_psf_range":{
+          "min":68.1,
+          "max":120.0
+        },
+        "int_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "width_range":{
+          "min":14.0,
+          "max":54.0
+        },
+        "height_range":{
+          "min":26.0,
+          "max":120.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"PH-4400 LMI",
+        "configuration":"OXO",
+        "ext_psf_range":{
+          "min":68.1,
+          "max":120.0
+        },
+        "int_psf_range":{
+          "min": 68.1,
+          "max": 120.0
+        },
+        "width_range":{
+          "min": 14.0,
+          "max": 54.0
+        },
+        "height_range":{
+          "min": 50.0,
+          "max": 120.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"600Y SMI",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":39.5,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":39.5,
+          "max":120.0
+        },
+        "width_range":{
+          "min": 16.5625,
+          "max": 60.0
+        },
+        "height_range":{
+          "min": 22.75,
+          "max": 107.375
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"600Y SMI",
+        "configuration":"OXO",
+        "ext_psf_range":{
+          "min":39.5,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":101.1,
+          "max":120.0
+        },
+        "width_range":{
+          "min":16.5625,
+          "max":54.0
+        },
+        "height_range":{
+          "min":22.75,
+          "max":131.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"ES-1100",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":120.0,
+          "max":140.0
+        },
+        "width_range":{
+          "min":14.5625,
+          "max":53.125
+        },
+        "height_range":{
+          "min":19.0,
+          "max":74.25
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"ES-1100WW",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":100.0,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":140.0,
+          "max":150.0
+        },
+        "width_range":{
+          "min":14.5625,
+          "max":50.0
+        },
+        "height_range":{
+          "min":28.75,
+          "max":85.125
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"ES-1100WW",
+        "configuration":"OXO",
+        "ext_psf_range":{
+          "min":100.0,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":120.0,
+          "max":150.0
+        },
+        "width_range":{
+          "min":14.5625,
+          "max":50.0
+        },
+        "height_range":{
+          "min":28.75,
+          "max":120
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"ES-1150",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":25.9,
+          "max":1100.0
+        },
+        "int_psf_range":{
+          "min":130.0,
+          "max":130.0
+        },
+        "width_range":{
+          "min":24.0,
+          "max":72.0
+        },
+        "height_range":{
+          "min":36.0,
+          "max":36.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"PH-4400 SMI",
+        "configuration":"XO",
+        "ext_psf_range":{
+          "min":68.1,
+          "max":120.0
+        },
+        "int_psf_range":{
+          "min":68.1,
+          "max":120.0
+        },
+        "width_range":{
+          "min":14.0,
+          "max":54.0
+        },
+        "height_range":{
+          "min":26.0,
+          "max":120
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"PH-4400 SMI",
+        "configuration":"OXO",
+        "ext_psf_range":{
+          "min":68.1,
+          "max":120.0
+        },
+        "int_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "width_range":{
+          "min":14.0,
+          "max":54.0
+        },
+        "height_range":{
+          "min":50.0,
+          "max":120.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"FIXED WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-8000 JUMBO",
+        "configuration":"1 LITE",
+        "ext_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "int_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "width_range":{
+          "min":49.0,
+          "max":180.0
+        },
+        "height_range":{
+          "min":49.0,
+          "max":180.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"FIXED WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-8000T JUMBO",
+        "configuration":"1 LITE",
+        "ext_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "int_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "width_range":{
+          "min":49.0,
+          "max":180.0
+        },
+        "height_range":{
+          "min":49.0,
+          "max":180.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"FIXED WINDOW",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"ES-1600",
+        "configuration":"O",
+        "ext_psf_range":{
+          "min":100.0,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":140.0,
+          "max":140.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":120.0
+        },
+        "height_range":{
+          "min":15.0,
+          "max":120.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL AW/CW NON IMPACT PRODUCTS",
+        "category":"PROJECT OUT",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-P250",
+        "configuration":"AWNING 2L",
+        "ext_psf_range":{
+          "min":40.0,
+          "max":40.0
+        },
+        "int_psf_range":{
+          "min":40.0,
+          "max":40.0
+        },
+        "width_range":{
+          "min":17.6875,
+          "max":60.0
+        },
+        "height_range":{
+          "min":51.0,
+          "max":72.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL AW/CW NON IMPACT PRODUCTS",
+        "category":"PROJECT OUT",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-P250",
+        "configuration":"FIXED 2L",
+        "ext_psf_range":{
+          "min":40.0,
+          "max":40.0
+        },
+        "int_psf_range":{
+          "min":40.0,
+          "max":40.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":72.0
+        },
+        "height_range":{
+          "min":15.0,
+          "max":114.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL AW/CW NON IMPACT PRODUCTS",
+        "category":"PROJECT OUT",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-P250",
+        "configuration":"AWNING - FIXED 2L",
+        "ext_psf_range":{
+          "min":40.0,
+          "max":40.0
+        },
+        "int_psf_range":{
+          "min":40.0,
+          "max":40.0
+        },
+        "width_range":{
+          "min":17.6875,
+          "max":60.0
+        },
+        "height_range":{
+          "min":45.375,
+          "max":84.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL AW/CW NON IMPACT PRODUCTS",
+        "category":"PROJECT OUT",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-P250",
+        "configuration":"AWNING",
+        "ext_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "int_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "width_range":{
+          "min":17.6875,
+          "max":60.0
+        },
+        "height_range":{
+          "min":15.0,
+          "max":36.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL AW/CW NON IMPACT PRODUCTS",
+        "category":"PROJECT OUT",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-P250",
+        "configuration":"FIXED",
+        "ext_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "int_psf_range":{
+          "min":120.0,
+          "max":120.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":114.0
+        },
+        "height_range":{
+          "min":15.0,
+          "max":114.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL AW/CW NON IMPACT PRODUCTS",
+        "category":"PROJECT OUT",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-P250",
+        "configuration":"CASEMENT",
+        "ext_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "int_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "width_range":{
+          "min":20.0,
+          "max":36.0
+        },
+        "height_range":{
+          "min":18.0,
+          "max":60.0
+        }
+      },
+      {
+        "brand":"UPVC ELITE",
+        "category":"AWNING",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-V550 - AWNING",
+        "configuration":"AWNING",
+        "ext_psf_range":{
+          "min":60.0,
+          "max":60.0
+        },
+        "int_psf_range":{
+          "min":60.0,
+          "max":60.0
+        },
+        "width_range":{
+          "min":30.0,
+          "max":52.125
+        },
+        "height_range":{
+          "min":24.0,
+          "max":52.125
+        }
+      },
+      {
+        "brand":"UPVC ELITE",
+        "category":"WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-V76 PLUS",
+        "configuration":"X",
+        "ext_psf_range":{
+          "min":65.0,
+          "max":65.0
+        },
+        "int_psf_range":{
+          "min":65.0,
+          "max":65.0
+        },
+        "width_range":{
+          "min":24.0,
+          "max":47.5
+        },
+        "height_range":{
+          "min":24.0,
+          "max":71.25
+        }
+      },
+      {
+        "brand":"UPVC ELITE",
+        "category":"WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-V76 PLUS",
+        "configuration":"O",
+        "ext_psf_range":{
+          "min":75.0,
+          "max":75.0
+        },
+        "int_psf_range":{
+          "min":75.0,
+          "max":75.0
+        },
+        "width_range":{
+          "min":24.0,
+          "max":59.0
+        },
+        "height_range":{
+          "min":24.0,
+          "max":98.5
+        }
+      },
+      {
+        "brand":"UPVC ELITE",
+        "category":"WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-V76 PLUS",
+        "configuration":"XL|XR",
+        "ext_psf_range":{
+          "min":65.0,
+          "max":65.0
+        },
+        "int_psf_range":{
+          "min":65.0,
+          "max":65.0
+        },
+        "width_range":{
+          "min":48.0,
+          "max":102.4375
+        },
+        "height_range":{
+          "min":24.0,
+          "max":63.5
+        }
+      },
+      {
+        "brand":"UPVC ELITE",
+        "category":"SINGLE HUNG",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-V100 - SINGLE HUNG",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":0.0,
+          "max":60.0
+        },
+        "int_psf_range":{
+          "min":0.0,
+          "max":60.0
+        },
+        "width_range":{
+          "min":17.0,
+          "max":53.0
+        },
+        "height_range":{
+          "min":25.0,
+          "max":76.0
+        }
+      }
+    ]
+  }
+}
