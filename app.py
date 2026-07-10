@@ -1,9 +1,10 @@
 import json
+import re
 import pandas as pd
 import streamlit as st
 
 # Set page layout to wide for comfortable data scanning
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="ES Window Insider", layout="wide")
 
 # String cleaner to bypass human syntax typos in raw JSON files dynamically
 def auto_heal_and_load_json(filepath):
@@ -86,7 +87,7 @@ try:
     df_raw = load_and_clean_data()
 except Exception as e:
     st.error(
-        f"Initialization failed. Verify 'window_formatted.json' and 'get_specs_door.json' exist. Error: {e}"
+        f"Initialization failed. Verify 'windows.json' and 'doors.json' exist. Error: {e}"
     )
     st.stop()
 
