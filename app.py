@@ -1,23 +1,9 @@
 import json
-import re
 import pandas as pd
 import streamlit as st
 
 # Set page layout to wide for comfortable data scanning
 st.set_page_config(page_title="ES Window Insider", layout="wide")
-
-# String cleaner to bypass human syntax typos in raw JSON files dynamically
-def auto_heal_and_load_json(filepath):
-    with open(filepath, "r", encoding="utf-8") as f:
-        content = f.read()
-
-    # Clear trailing syntax commas before a closing brace } or bracket ]
-    content = re.sub(r",\s*([\]}])", r"\1", content)
-
-    # Intercept missing item commas between successive rows
-    content = re.sub(r'([\d"\]}])\s*\n\s*"', r"\1,\n\"", content)
-
-    return json.loads(content)
 
 @st.cache_data
 def load_and_clean_data():
@@ -25,20 +11,30 @@ def load_and_clean_data():
 
     # 1. Digest Windows Inventory
     try:
-        windows_payload = auto_heal_and_load_json("windows.json")
-        for item in windows_payload["data"]["window"]:
-            item["product_type"] = "WINDOW"
-            all_products.append(item)
+        with open("windows.json", "r") as f:
+            windows_data = json.load(f)["data"]["window"]
+            for item in windows_data:
+                item["product_type"] = "WINDOW"
+                all_products.append(item)
+    except json.JSONDecodeError as je:
+        st.error(f"❌ **Syntax Error in `windows.json`!** Someone messed up the typing. "
+                 f"Check around line {je.lineno}, column {je.colno}. Reason: {je.msg}")
+        st.stop()
     except FileNotFoundError:
         st.error("❌ Critical Error: 'windows.json' not found in this folder.")
         st.stop()
 
     # 2. Digest Doors Inventory
     try:
-        doors_payload = auto_heal_and_load_json("doors.json")
-        for item in doors_payload["data"]["door"]:
-            item["product_type"] = "DOOR"
-            all_products.append(item)
+        with open("doors.json", "r") as f:
+            doors_data = json.load(f)["data"]["door"]
+            for item in doors_data:
+                item["product_type"] = "DOOR"
+                all_products.append(item)
+    except json.JSONDecodeError as je:
+        st.error(f"❌ **Syntax Error in `doors.json`!** Someone messed up the typing. "
+                 f"Check around line {je.lineno}, column {je.colno}. Reason: {je.msg}")
+        st.stop()
     except FileNotFoundError:
         st.error("❌ Critical Error: 'doors.json' not found in this folder.")
         st.stop()
@@ -127,18 +123,18 @@ enable_dimension = st.sidebar.checkbox("Enable dimensions?", value=False)
 
 if enable_dimension:
     user_width = st.sidebar.number_input(
-        "Target Width (in)", min_value=0.0, value=36.0, step=0.125
+        "Target Width (in)", min_value=0.0000, value=36.0000, step=0.0625
     )
     user_height = st.sidebar.number_input(
-        "Target Height (in)", min_value=0.0, value=80.0, step=0.125
+        "Target Height (in)", min_value=0.0000, value=80.0000, step=0.0625
     )
 
     # Use fillna strategically so incomplete data doesn't trigger false positives
     filtered_df = filtered_df[
-        (filtered_df["width_min"] <= user_width | filtered_df["width_min"].isna())
-        & (user_width <= filtered_df["width_max"] | filtered_df["width_min"].isna())
-        & (filtered_df["height_min"] <= user_height | filtered_df["height_min"].isna())
-        & (user_height <= filtered_df["height_max"] | filtered_df["height_max"].isna())
+        (filtered_df["width_min"].fillna(0.0) <= user_width)
+        & (user_width <= filtered_df["width_max"].fillna(float("inf")))
+        & (filtered_df["height_min"].fillna(0.0) <= user_height)
+        & (user_height <= filtered_df["height_max"].fillna(float("inf")))
     ]
 
 st.sidebar.write("---")
@@ -147,16 +143,16 @@ st.sidebar.subheader("💨 Ext. & Int. Wind Pressure")
 enable_psf = st.sidebar.checkbox("Enable wind pressure?", value=False)
 if enable_psf:
     user_ext_psf = st.sidebar.number_input(
-        "Exterior PSF Cap (+)", min_value=0.0, value=60.0, step=5.0
+        "Exterior PSF Cap (+)", min_value=0.0, value=60.0, step=1.0
     )
     user_int_psf = st.sidebar.number_input(
-        "Interior PSF Cap (-)", min_value=0.0, value=60.0, step=5.0
+        "Interior PSF Cap (-)", min_value=0.0, value=60.0, step=1.0
     )
 
     # Ensure capability limit is equal to or greater than requirements
     filtered_df = filtered_df[
-        (filtered_df["ext_psf_max"] >= user_ext_psf | filtered_df["ext_psf_max"].isna())
-        & (filtered_df["int_psf_max"] >= user_int_psf | filtered_df["int_psf_max"].isna())
+        (filtered_df["ext_psf_max"].fillna(float("inf")) >= user_ext_psf)
+        & (filtered_df["int_psf_max"].fillna(float("inf")) >= user_int_psf)
     ]
 
 # --- Main Window Output Display ---
@@ -181,6 +177,7 @@ if not filtered_df.empty:
     st.dataframe(
         filtered_df[display_cols].sort_values(by=["brand", "model"]),
         width="stretch",
+        height="stretch",
         hide_index=True,
     )
 else:
