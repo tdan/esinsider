@@ -5,24 +5,42 @@ import streamlit as st
 # Set page layout to wide for comfortable data scanning
 st.set_page_config(layout="wide")
 
+# String cleaner to bypass human syntax typos in raw JSON files dynamically
+def auto_heal_and_load_json(filepath):
+    with open(filepath, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    # Clear trailing syntax commas before a closing brace } or bracket ]
+    content = re.sub(r",\s*([\]}])", r"\1", content)
+
+    # Intercept missing item commas between successive rows
+    content = re.sub(r'([\d"\]}])\s*\n\s*"', r"\1,\n\"", content)
+
+    return json.loads(content)
 
 @st.cache_data
 def load_and_clean_data():
     all_products = []
 
-    # 1. Load Windows file verbatim
-    with open("window_formatted.json", "r") as f:
-        windows_data = json.load(f)["data"]["window"]
-        for item in windows_data:
+    # 1. Digest Windows Inventory
+    try:
+        windows_payload = auto_heal_and_load_json("windows.json")
+        for item in windows_payload["data"]["window"]:
             item["product_type"] = "WINDOW"
             all_products.append(item)
+    except FileNotFoundError:
+        st.error("❌ Critical Error: 'windows.json' not found in this folder.")
+        st.stop()
 
-    # 2. Load Doors file verbatim
-    with open("get_specs_door.json", "r") as f:
-        doors_data = json.load(f)["data"]["door"]
-        for item in doors_data:
+    # 2. Digest Doors Inventory
+    try:
+        doors_payload = auto_heal_and_load_json("doors.json")
+        for item in doors_payload["data"]["door"]:
             item["product_type"] = "DOOR"
             all_products.append(item)
+    except FileNotFoundError:
+        st.error("❌ Critical Error: 'doors.json' not found in this folder.")
+        st.stop()
 
     df = pd.DataFrame(all_products)
 
@@ -116,10 +134,10 @@ if enable_dimension:
 
     # Use fillna strategically so incomplete data doesn't trigger false positives
     filtered_df = filtered_df[
-        (filtered_df["width_min"].fillna(float("inf")) <= user_width)
-        & (user_width <= filtered_df["width_max"].fillna(-1.0))
-        & (filtered_df["height_min"].fillna(float("inf")) <= user_height)
-        & (user_height <= filtered_df["height_max"].fillna(-1.0))
+        (filtered_df["width_min"] <= user_width | filtered_df["width_min"].isna())
+        & (user_width <= filtered_df["width_max"] | filtered_df["width_min"].isna())
+        & (filtered_df["height_min"] <= user_height | filtered_df["height_min"].isna())
+        & (user_height <= filtered_df["height_max"] | filtered_df["height_max"].isna())
     ]
 
 st.sidebar.write("---")
@@ -136,8 +154,8 @@ if enable_psf:
 
     # Ensure capability limit is equal to or greater than requirements
     filtered_df = filtered_df[
-        (filtered_df["ext_psf_max"].fillna(-1.0) >= user_ext_psf)
-        & (filtered_df["int_psf_max"].fillna(-1.0) >= user_int_psf)
+        (filtered_df["ext_psf_max"] >= user_ext_psf | filtered_df["ext_psf_max"].isna())
+        & (filtered_df["int_psf_max"] >= user_int_psf | filtered_df["int_psf_max"].isna())
     ]
 
 # --- Main Window Output Display ---

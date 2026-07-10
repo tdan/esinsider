@@ -1,8 +1,8 @@
 {
-  "job_id":"0659b38b-d082-431d-a469-8e8784695848",
+  "job_id":"bccbec95-fae8-490b-a35f-c9948ae685eb",
   "success":true,
   "data":{
-    "count":90,
+    "count":115,
     "window":[
       {
         "brand":"PRESTIGE",
@@ -84,7 +84,7 @@
           "max":90.0
         },
         "int_psf_range":{
-          "min":39.0,
+          "min":90.0,
           "max":90.0
         },
         "width_range":{
@@ -103,20 +103,20 @@
         "model":"ES-P300",
         "configuration":"AWNING LMI",
         "ext_psf_range":{
-          "min": 80.0,
-          "max": 80.0
+          "min":80.0,
+          "max":80.0
         },
         "int_psf_range":{
-          "min": 90.0,
-          "max": 90.0
+          "min":90.0,
+          "max":90.0
         },
         "width_range":{
-          "min": 15.0,
-          "max": 48.0
+          "min":18.0,
+          "max":60.0
         },
         "height_range":{
-          "min": 15.0,
-          "max": 84.0
+          "min":24.0,
+          "max":48.0
         }
       },
       {
@@ -126,20 +126,20 @@
         "model":"ES-P300",
         "configuration":"CASEMENT LMI",
         "ext_psf_range":{
-          "min": 80.0,
-          "max": 80.0
+          "min":80.0,
+          "max":80.0
         },
         "int_psf_range":{
-          "min": 90.0,
-          "max": 90.0
+          "min":90.0,
+          "max":90.0
         },
         "width_range":{
-          "min": 15.0,
-          "max": 48.0
+          "min":15.0,
+          "max":48.0
         },
         "height_range":{
-          "min": 15.0,
-          "max": 84.0
+          "min":15.0,
+          "max":84.0
         }
       },
       {
@@ -149,20 +149,20 @@
         "model":"ES-P300",
         "configuration":"FIXED LMI",
         "ext_psf_range":{
-          "min": 32.5,
-          "max": 150.0
+          "min":32.5,
+          "max":150.0
         },
         "int_psf_range":{
-          "min": 32.5,
-          "max": 150.0
+          "min":32.5,
+          "max":150.0
         },
         "width_range":{
-          "min": 15.0,
-          "max": 144.0
+          "min":15.0,
+          "max":144.0
         },
         "height_range":{
-          "min": 15.0,
-          "max": 144.0
+          "min":15.0,
+          "max":114.0
         }
       },
       {
@@ -176,7 +176,7 @@
           "max":140.0
         },
         "int_psf_range":{
-          "min":140.0,
+          "min":114.0,
           "max":140.0
         },
         "width_range":{
@@ -186,6 +186,167 @@
         "height_range":{
           "min":42.635,
           "max":47.875
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"WINDOW",
+        "impact_rating":"NON IMPACT",
+        "model":"ES-P300",
+        "configuration":"FIXED-AWNING NI",
+        "ext_psf_range":{
+          "min":73.0,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":100.0,
+          "max":100.0
+        },
+        "width_range":{
+          "min":18.0,
+          "max":60.0
+        },
+        "height_range":{
+          "min":44.1875,
+          "max":96.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"WINDOW",
+        "impact_rating":"NON IMPACT",
+        "model":"ES-P300",
+        "configuration":"FIXED 2L NI",
+        "ext_psf_range":{
+          "min":39.0,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":39.0,
+          "max":100.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":60.0
+        },
+        "height_range":{
+          "min":27.25,
+          "max":152.5625
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"WINDOW",
+        "impact_rating":"NON IMPACT",
+        "model":"ES-P300",
+        "configuration":"AWNING NI",
+        "ext_psf_range":{
+          "min":0.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":18.0,
+          "max":60.0
+        },
+        "height_range":{
+          "min":24.0,
+          "max":48.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"WINDOW",
+        "impact_rating":"NON IMPACT",
+        "model":"ES-P300",
+        "configuration":"FIXED NI 4 IN",
+        "ext_psf_range":{
+          "min":0.0,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":100.0,
+          "max":100.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":85.75
+        },
+        "height_range":{
+          "min":15.0,
+          "max":193.75
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"WINDOW",
+        "impact_rating":"NON IMPACT",
+        "model":"ES-P300",
+        "configuration":"CASEMENT NI",
+        "ext_psf_range":{
+          "min":76.0,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":86.0,
+          "max":100.0
+        },
+        "width_range":{
+          "min":21.0,
+          "max":60.0
+        },
+        "height_range":{
+          "min":20.0,
+          "max":96.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"WINDOW",
+        "impact_rating":"NON IMPACT",
+        "model":"ES-P300",
+        "configuration":"FIXED NI STD",
+        "ext_psf_range":{
+          "min":10.0,
+          "max":150.0
+        },
+        "int_psf_range":{
+          "min":150.0,
+          "max":150.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":144.0
+        },
+        "height_range":{
+          "min":15.0,
+          "max":114.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"WINDOW",
+        "impact_rating":"NON IMPACT",
+        "model":"ES-P300",
+        "configuration":"FIXED NI 5 IN",
+        "ext_psf_range":{
+          "min":0.0,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":100.0,
+          "max":100.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":85.75
+        },
+        "height_range":{
+          "min":15.0,
+          "max":193.75
         }
       },
       {
@@ -204,7 +365,7 @@
         },
         "width_range":{
           "min":18.0,
-          "max":57.0
+          "max":60.0
         },
         "height_range":{
           "min":24.0,
@@ -218,20 +379,112 @@
         "model":"ES-P300",
         "configuration":"CASEMENT SMI",
         "ext_psf_range":{
-          "min": 80.0,
-          "max": 80.0
+          "min":80.0,
+          "max":80.0
         },
         "int_psf_range":{
-          "min": 90.0,
-          "max": 90.0
+          "min":90.0,
+          "max":90.0
         },
         "width_range":{
-          "min": 15.0,
-          "max": 48.0
+          "min":15.0,
+          "max":48.0
         },
         "height_range":{
-          "min": 15.0,
-          "max": 48.0
+          "min":15.0,
+          "max":84.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-SW340 LMI",
+        "configuration":"XOX",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":48.0,
+          "max":126.0
+        },
+        "height_range":{
+          "min":24.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-SW340 LMI",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":32.0,
+          "max":92.6875
+        },
+        "height_range":{
+          "min":24.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-SW340 LMI",
+        "configuration":"XO",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":32.0,
+          "max":92.6875
+        },
+        "height_range":{
+          "min":24.0,
+          "max":63.0
+        }
+      },
+      {
+        "brand":"PRESTIGE",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-SW340 LMI",
+        "configuration":"XOX (0.25 - 0.5 - 0.25)",
+        "ext_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":48.0,
+          "max":126.0
+        },
+        "height_range":{
+          "min":24.0,
+          "max":63.0
         }
       },
       {
@@ -498,7 +751,7 @@
           "max":100.0
         },
         "int_psf_range":{
-          "min":125.0,
+          "min":85.0,
           "max":125.0
         },
         "width_range":{
@@ -508,6 +761,52 @@
         "height_range":{
           "min":17.0,
           "max":48.0
+        }
+      },
+      {
+        "brand":"ELITE",
+        "category":"CASEMENT",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-5000",
+        "configuration":"MULTIPOINT",
+        "ext_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "int_psf_range":{
+          "min":114.0,
+          "max":114.0
+        },
+        "width_range":{
+          "min":18.8125,
+          "max":42.0
+        },
+        "height_range":{
+          "min":22.0,
+          "max":76.0
+        }
+      },
+      {
+        "brand":"ELITE",
+        "category":"CASEMENT",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-5000",
+        "configuration":"XX - MULTIPOINT",
+        "ext_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":18.8125,
+          "max":84.0
+        },
+        "height_range":{
+          "min":22.0,
+          "max":63.0
         }
       },
       {
@@ -640,11 +939,11 @@
           "max":80.0
         },
         "width_range":{
-          "min":14.5625,
+          "min":15.0,
           "max":53.125
         },
         "height_range":{
-          "min":19.75,
+          "min":15.0,
           "max":76.0
         }
       },
@@ -787,6 +1086,29 @@
         }
       },
       {
+        "brand":"MULTIMAX",
+        "category":"FIXED WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-MX1500",
+        "configuration":"O",
+        "ext_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "int_psf_range":{
+          "min":90.0,
+          "max":90.0
+        },
+        "width_range":{
+          "min":15.0,
+          "max":60.0
+        },
+        "height_range":{
+          "min":15.0,
+          "max":120.0
+        }
+      },
+      {
         "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
         "category":"AWNING",
         "impact_rating":"LARGE MISSILE IMPACT",
@@ -834,6 +1156,29 @@
       },
       {
         "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"AWNING",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"GW-2650 SMI",
+        "configuration":"AWNING",
+        "ext_psf_range":{
+          "min":100.0,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":132.0,
+          "max":132.0
+        },
+        "width_range":{
+          "min":32.5,
+          "max":56.0
+        },
+        "height_range":{
+          "min":48.625,
+          "max":72.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
         "category":"CASEMENT",
         "impact_rating":"LARGE MISSILE IMPACT",
         "model":"HC-200 LMI",
@@ -843,7 +1188,7 @@
           "max":150.0
         },
         "int_psf_range":{
-          "min":100.0,
+          "min":210.0,
           "max":210.0
         },
         "width_range":{
@@ -853,6 +1198,29 @@
         "height_range":{
           "min":24.0,
           "max":48.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"CASEMENT",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"HC-200 SMI",
+        "configuration":"CASEMENT",
+        "ext_psf_range":{
+          "min":106.6,
+          "max":130.0
+        },
+        "int_psf_range":{
+          "min":123.0,
+          "max":210.0
+        },
+        "width_range":{
+          "min":17.25,
+          "max":42.0
+        },
+        "height_range":{
+          "min":24.0,
+          "max":84.0
         }
       },
       {
@@ -943,7 +1311,7 @@
           "max":111.0
         },
         "height_range":{
-          "min":21.75,
+          "min":20.0,
           "max":63.0
         }
       },
@@ -966,7 +1334,7 @@
           "max":74.0
         },
         "height_range":{
-          "min":20.0,
+          "min":21.75,
           "max":63.0
         }
       },
@@ -1054,12 +1422,12 @@
           "max":120.0
         },
         "width_range":{
-          "min": 15.0,
-          "max": 112
+          "min":15.0,
+          "max":112.0
         },
         "height_range":{
-          "min": 15.0,
-          "max": 80.75
+          "min":15.0,
+          "max":80.75
         }
       },
       {
@@ -1184,20 +1552,20 @@
         "model":"HR-2600 SMI",
         "configuration":"XOX",
         "ext_psf_range":{
-          "min":120,
-          "max":120
+          "min":120.0,
+          "max":120.0
         },
         "int_psf_range":{
-          "min": 120,
-          "max": 120
+          "min":120.0,
+          "max":120.0
         },
         "width_range":{
-          "min": 15.0,
-          "max": 161.625
+          "min":15.0,
+          "max":161.625
         },
         "height_range":{
-          "min": 15.0,
-          "max": 80.75
+          "min":15.0,
+          "max":80.75
         }
       },
       {
@@ -1276,20 +1644,20 @@
         "model":"500Y LMI",
         "configuration":"OXO",
         "ext_psf_range":{
-          "min": 91.5,
-          "max": 100.0
+          "min":91.5,
+          "max":100.0
         },
         "int_psf_range":{
-          "min": 119.0,
-          "max": 130.0
+          "min":130.0,
+          "max":130.0
         },
         "width_range":{
-          "min": 28.0,
-          "max": 48.0
+          "min":28.0,
+          "max":48.0
         },
         "height_range":{
-          "min": 31.0,
-          "max": 110.0
+          "min":31.0,
+          "max":110.0
         }
       },
       {
@@ -1303,7 +1671,7 @@
           "max":100.0
         },
         "int_psf_range":{
-          "min":120.0,
+          "min":37.4,
           "max":120.0
         },
         "width_range":{
@@ -1372,7 +1740,7 @@
           "max":100.0
         },
         "int_psf_range":{
-          "min":107.1,
+          "min":90.0,
           "max":115.0
         },
         "width_range":{
@@ -1414,20 +1782,20 @@
         "model":"ES-1050",
         "configuration":"OX",
         "ext_psf_range":{
-          "min":25.9,
-          "max":106.7
+          "min":70.0,
+          "max":80.0
         },
         "int_psf_range":{
-          "min":140.0,
-          "max":140.0
+          "min":90.0,
+          "max":90.0
         },
         "width_range":{
-          "min":24.0,
-          "max":72.0
+          "min":19.0,
+          "max":53.125
         },
         "height_range":{
-          "min":30.0,
-          "max":96.0
+          "min":19.0,
+          "max":80.0
         }
       },
       {
@@ -1464,16 +1832,16 @@
           "max":115.0
         },
         "int_psf_range":{
-          "min": 80.0,
-          "max": 100.0
+          "min":80.0,
+          "max":100.0
         },
         "width_range":{
-          "min": 14.5625,
-          "max": 48.0
+          "min":14.5625,
+          "max":48.0
         },
         "height_range":{
-          "min": 28.75,
-          "max": 108.0
+          "min":28.75,
+          "max":108.0
         }
       },
       {
@@ -1518,8 +1886,8 @@
           "max":50.0
         },
         "height_range":{
-          "min":108.0625,
-          "max":110.0
+          "min":30.5,
+          "max":120.0
         }
       },
       {
@@ -1556,39 +1924,62 @@
           "max":120.0
         },
         "int_psf_range":{
-          "min": 68.1,
-          "max": 120.0
+          "min":68.1,
+          "max":120.0
         },
         "width_range":{
-          "min": 14.0,
-          "max": 54.0
+          "min":14.0,
+          "max":54.0
         },
         "height_range":{
-          "min": 50.0,
-          "max": 120.0
+          "min":50.0,
+          "max":120.0
         }
       },
       {
         "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
         "category":"SINGLE HUNG",
         "impact_rating":"SMALL MISSILE IMPACT",
-        "model":"600Y SMI",
+        "model":"500Y SMI",
         "configuration":"OX",
         "ext_psf_range":{
-          "min":39.5,
+          "min":25.9,
+          "max":1100.0
+        },
+        "int_psf_range":{
+          "min":130.0,
+          "max":130.0
+        },
+        "width_range":{
+          "min":24.0,
+          "max":72.0
+        },
+        "height_range":{
+          "min":36.0,
+          "max":96.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"500Y SMI",
+        "configuration":"OXO",
+        "ext_psf_range":{
+          "min":91.5,
           "max":100.0
         },
         "int_psf_range":{
-          "min":39.5,
-          "max":120.0
+          "min":130.0,
+          "max":130.0
         },
         "width_range":{
-          "min": 16.5625,
-          "max": 60.0
+          "min":28.0,
+          "max":48.0
         },
         "height_range":{
-          "min": 22.75,
-          "max": 107.375
+          "min":52.0,
+          "max":110.0
         }
       },
       {
@@ -1602,7 +1993,7 @@
           "max":100.0
         },
         "int_psf_range":{
-          "min":101.1,
+          "min":39.5,
           "max":120.0
         },
         "width_range":{
@@ -1611,7 +2002,30 @@
         },
         "height_range":{
           "min":22.75,
-          "max":131.0
+          "max":137.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"SINGLE HUNG",
+        "impact_rating":"SMALL MISSILE IMPACT",
+        "model":"600Y SMI",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":39.5,
+          "max":100.0
+        },
+        "int_psf_range":{
+          "min":39.5,
+          "max":120.0
+        },
+        "width_range":{
+          "min":15.5625,
+          "max":60.0
+        },
+        "height_range":{
+          "min":22.75,
+          "max":107.375
         }
       },
       {
@@ -1625,7 +2039,7 @@
           "max":80.0
         },
         "int_psf_range":{
-          "min":120.0,
+          "min":90.5,
           "max":140.0
         },
         "width_range":{
@@ -1648,7 +2062,7 @@
           "max":100.0
         },
         "int_psf_range":{
-          "min":140.0,
+          "min":120.0,
           "max":150.0
         },
         "width_range":{
@@ -1680,7 +2094,7 @@
         },
         "height_range":{
           "min":28.75,
-          "max":120
+          "max":120.0
         }
       },
       {
@@ -1690,20 +2104,20 @@
         "model":"ES-1150",
         "configuration":"OX",
         "ext_psf_range":{
-          "min":25.9,
-          "max":1100.0
+          "min":80.0,
+          "max":80.0
         },
         "int_psf_range":{
-          "min":130.0,
-          "max":130.0
+          "min":140.0,
+          "max":140.0
         },
         "width_range":{
-          "min":24.0,
-          "max":72.0
+          "min":14.5625,
+          "max":53.125
         },
         "height_range":{
-          "min":36.0,
-          "max":36.0
+          "min":19.0,
+          "max":74.25
         }
       },
       {
@@ -1717,7 +2131,7 @@
           "max":120.0
         },
         "int_psf_range":{
-          "min":68.1,
+          "min":120.0,
           "max":120.0
         },
         "width_range":{
@@ -1726,7 +2140,7 @@
         },
         "height_range":{
           "min":26.0,
-          "max":120
+          "max":120.0
         }
       },
       {
@@ -1740,7 +2154,7 @@
           "max":120.0
         },
         "int_psf_range":{
-          "min":120.0,
+          "min":68.1,
           "max":120.0
         },
         "width_range":{
@@ -1749,6 +2163,29 @@
         },
         "height_range":{
           "min":50.0,
+          "max":120.0
+        }
+      },
+      {
+        "brand":"COMMERCIAL & CONDO IMPACT RATED PRODUCTS",
+        "category":"FIXED WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-1500",
+        "configuration":"O",
+        "ext_psf_range":{
+          "min":70.0,
+          "max":70.0
+        },
+        "int_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "width_range":{
+          "min":14.1875,
+          "max":60.0
+        },
+        "height_range":{
+          "min":14.1875,
           "max":120.0
         }
       },
@@ -1984,6 +2421,29 @@
       },
       {
         "brand":"UPVC ELITE",
+        "category":"CASEMENT",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-V500 - CASEMENT",
+        "configuration":"CASEMENT",
+        "ext_psf_range":{
+          "min":0.0,
+          "max":60.0
+        },
+        "int_psf_range":{
+          "min":0.0,
+          "max":60.0
+        },
+        "width_range":{
+          "min":24.0,
+          "max":41.0
+        },
+        "height_range":{
+          "min":30.0,
+          "max":83.0
+        }
+      },
+      {
+        "brand":"UPVC ELITE",
         "category":"WINDOW",
         "impact_rating":"LARGE MISSILE IMPACT",
         "model":"ES-V76 PLUS",
@@ -2053,6 +2513,98 @@
       },
       {
         "brand":"UPVC ELITE",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-V200 - HORIZONTAL ROLLER",
+        "configuration":"XOX",
+        "ext_psf_range":{
+          "min":0.0,
+          "max":60.0
+        },
+        "int_psf_range":{
+          "min":60.0,
+          "max":60.0
+        },
+        "width_range":{
+          "min":37.0,
+          "max":110.0
+        },
+        "height_range":{
+          "min":20.0,
+          "max":62.0
+        }
+      },
+      {
+        "brand":"UPVC ELITE",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-V200 - HORIZONTAL ROLLER",
+        "configuration":"XO",
+        "ext_psf_range":{
+          "min":0.0,
+          "max":60.0
+        },
+        "int_psf_range":{
+          "min":0.0,
+          "max":60.0
+        },
+        "width_range":{
+          "min":25.0,
+          "max":73.75
+        },
+        "height_range":{
+          "min":20.0,
+          "max":62.0
+        }
+      },
+      {
+        "brand":"UPVC ELITE",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-V200 - HORIZONTAL ROLLER",
+        "configuration":"OX",
+        "ext_psf_range":{
+          "min":0.0,
+          "max":60.0
+        },
+        "int_psf_range":{
+          "min":0.0,
+          "max":60.0
+        },
+        "width_range":{
+          "min":25.0,
+          "max":73.75
+        },
+        "height_range":{
+          "min":20.0,
+          "max":62
+        }
+      },
+      {
+        "brand":"UPVC ELITE",
+        "category":"HORIZONTAL ROLLER",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-V200 - HORIZONTAL ROLLER",
+        "configuration":"XOX (0.25 - 0.50 - 0.25)",
+        "ext_psf_range":{
+          "min":0.0,
+          "max":60.0
+        },
+        "int_psf_range":{
+          "min":0.0,
+          "max":60.0
+        },
+        "width_range":{
+          "min":45.5,
+          "max":110.0
+        },
+        "height_range":{
+          "min":20.0,
+          "max":62.0
+        }
+      },
+      {
+        "brand":"UPVC ELITE",
         "category":"SINGLE HUNG",
         "impact_rating":"LARGE MISSILE IMPACT",
         "model":"ES-V100 - SINGLE HUNG",
@@ -2072,6 +2624,29 @@
         "height_range":{
           "min":25.0,
           "max":76.0
+        }
+      },
+      {
+        "brand":"UPVC ELITE",
+        "category":"FIXED WINDOW",
+        "impact_rating":"LARGE MISSILE IMPACT",
+        "model":"ES-V150 - FIXED WINDOW",
+        "configuration":"O",
+        "ext_psf_range":{
+          "min":0.0,
+          "max":80.0
+        },
+        "int_psf_range":{
+          "min":80.0,
+          "max":80.0
+        },
+        "width_range":{
+          "min":16.0,
+          "max":100.0
+        },
+        "height_range":{
+          "min":16.0,
+          "max":100.0
         }
       }
     ]
